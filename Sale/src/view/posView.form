@@ -319,7 +319,7 @@
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" attributes="0">
                                                   <Component id="btnSave" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                                                   <Component id="jButton10" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
@@ -341,9 +341,9 @@
                                               <Group type="102" alignment="0" attributes="0">
                                                   <Group type="103" groupAlignment="0" attributes="0">
                                                       <Group type="102" attributes="0">
-                                                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
                                                           <Component id="jButton11" min="-2" max="-2" attributes="0"/>
-                                                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                                                           <Component id="jButton12" min="-2" max="-2" attributes="0"/>
                                                       </Group>
                                                       <Group type="102" alignment="0" attributes="0">
@@ -353,16 +353,16 @@
                                                           <Component id="txtCustomerCell" min="-2" pref="155" max="-2" attributes="0"/>
                                                       </Group>
                                                   </Group>
-                                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                                                   <Component id="jButton13" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
                                                   <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                  <Component id="txtCustomerAddress" min="-2" pref="168" max="-2" attributes="0"/>
+                                                  <Component id="txtCustomerAddress" min="-2" pref="274" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
-                                          <EmptySpace pref="67" max="32767" attributes="0"/>
+                                          <EmptySpace pref="81" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                 </DimensionLayout>
@@ -385,22 +385,15 @@
                                               <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
                                               <Component id="txtCustomerAddress" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                                                  <Component id="btnSave" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jButton10" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jButton11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jButton12" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jButton13" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
+                                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="btnSave" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jButton10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jButton11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jButton12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jButton13" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace pref="209" max="32767" attributes="0"/>
+                                          <EmptySpace pref="219" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                 </DimensionLayout>
@@ -451,23 +444,29 @@
                                 </Component>
                                 <Component class="javax.swing.JButton" name="jButton10">
                                   <Properties>
-                                    <Property name="text" type="java.lang.String" value="jButton10"/>
+                                    <Property name="text" type="java.lang.String" value="Edit"/>
                                   </Properties>
                                 </Component>
                                 <Component class="javax.swing.JButton" name="jButton11">
                                   <Properties>
-                                    <Property name="text" type="java.lang.String" value="jButton11"/>
+                                    <Property name="text" type="java.lang.String" value="Reset"/>
                                   </Properties>
                                 </Component>
                                 <Component class="javax.swing.JButton" name="jButton12">
                                   <Properties>
-                                    <Property name="text" type="java.lang.String" value="jButton12"/>
+                                    <Property name="text" type="java.lang.String" value="delete"/>
                                   </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton12ActionPerformed"/>
+                                  </Events>
                                 </Component>
                                 <Component class="javax.swing.JButton" name="jButton13">
                                   <Properties>
-                                    <Property name="text" type="java.lang.String" value="jButton13"/>
+                                    <Property name="text" type="java.lang.String" value="Search"/>
                                   </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton13ActionPerformed"/>
+                                  </Events>
                                 </Component>
                               </SubComponents>
                             </Container>
