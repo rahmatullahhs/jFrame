@@ -1,7 +1,9 @@
 
 package creatreaddeletupdate;
 
+
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -46,10 +48,34 @@ static String sql="";
         Logger.getLogger(CreatReadDeletUpdate.class.getName()).log(Level.SEVERE, null, ex);
     }
     
- 
+
     }
     
-    
+    public static void showAllEmp() {
+      sql="select*from employee"; 
+        
+    try {
+        ps=db.getCon().prepareStatement(sql);
+        
+        ResultSet rs=ps.executeQuery();
+        while (rs.next()) {            
+            
+        }
+        
+        
+    } catch (SQLException ex) {
+        Logger.getLogger(CreatReadDeletUpdate.class.getName()).log(Level.SEVERE, null, ex);
+    }
+       
+        
+        
+        
+        
+        
+        
+        
+    }
+  
     
     
     
