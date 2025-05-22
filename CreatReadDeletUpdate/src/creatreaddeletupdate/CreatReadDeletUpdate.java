@@ -15,18 +15,23 @@ public class CreatReadDeletUpdate {
 
     public static void main(String[] args) {
 
-//        saveEmp("rakib", "rakib@mail.com", 15000f);
-//        System.out.println("After Save");
-//        showAllEmp();
-//        System.out.println("--------------------------------");
-  // deletEmp(7);
-//        System.out.println("atfer delet");
-//      showAllEmp();
-//        System.out.println("--------------------------------");
-        updateEmp(1, "RahmatUllah", "Rahmat@mail.com", 35000f);
-//        System.out.println("after update");
-//        showAllEmp();
-//        System.out.println("--------------------------------");
+        saveEmp("Raza", "raza@mail.com", 65000f);
+        System.out.println("After Save");
+        
+        showAllEmp();
+        System.out.println("--------------------------------");
+        
+        deletEmp(7);
+        System.out.println("after delete");
+        
+        showAllEmp();
+        System.out.println("--------------------------------");
+        
+        updateEmp(1, "RahmatUllah", "Rahmat@mail.com", 45000f);
+        System.out.println("after update");
+        
+        showAllEmp();
+        System.out.println("--------------------------------");
 
     }
 
