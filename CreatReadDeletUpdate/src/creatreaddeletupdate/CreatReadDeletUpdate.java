@@ -35,16 +35,16 @@ public class CreatReadDeletUpdate {
 
     }
 
-    public static void saveEmp(String name, String email, float salary) {
+    public static void saveProduct(String product, float price) {
 
         sql = "insert into employee(name,email,salary)values(?,?,?)";
 
         try {
 
             ps = db.getCon().prepareStatement(sql);
-            ps.setString(1, name);
+            ps.setString(1, product);
             ps.setString(2, email);
-            ps.setFloat(3, salary);
+            ps.setFloat(3, price);
 
             ps.executeUpdate();
             ps.close();
