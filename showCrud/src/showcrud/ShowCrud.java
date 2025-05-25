@@ -26,13 +26,13 @@ public class ShowCrud {
     public static void main(String[] args) {
         // TODO code application logic here
         
-//        saveProduct("PC", "afganisthan", 6500000f);
-//           saveProduct("Keybord", "mirpur", 150500f);
-//            saveProduct("Mouse", "germany", 50500f);
-//             saveProduct("Monitor", "brazil", 950500f);
-//              saveProduct("Cable", "canada", 88000f);
-//               saveProduct("starlink", "Russia", 1590500f);
-//        System.out.println("After Save");
+        saveProduct("PC", "afganisthan", 6500000f);
+           saveProduct("Keybord", "mirpur", 150500f);
+            saveProduct("Mouse", "germany", 50500f);
+             saveProduct("Monitor", "brazil", 950500f);
+              saveProduct("Cable", "canada", 88000f);
+               saveProduct("starlink", "Russia", 1590500f);
+        System.out.println("After Save");
         
         showAllProduct();
         System.out.println("--------------------------------");

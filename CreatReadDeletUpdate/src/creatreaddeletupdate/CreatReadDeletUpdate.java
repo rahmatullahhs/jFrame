@@ -35,7 +35,7 @@ public class CreatReadDeletUpdate {
 
     }
 
-    public static void saveProduct(String product, float price) {
+    public static void saveEmp(String product,String email, float salary) {
 
         sql = "insert into employee(name,email,salary)values(?,?,?)";
 
@@ -44,7 +44,7 @@ public class CreatReadDeletUpdate {
             ps = db.getCon().prepareStatement(sql);
             ps.setString(1, product);
             ps.setString(2, email);
-            ps.setFloat(3, price);
+            ps.setFloat(3, salary);
 
             ps.executeUpdate();
             ps.close();
