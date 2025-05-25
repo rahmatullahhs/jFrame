@@ -27,11 +27,11 @@ public class ShowCrud {
         // TODO code application logic here
         
         saveProduct("PC", "afganisthan", 6500000f);
-           saveProduct("Keybord", "mirpur", 150500f);
-            saveProduct("Mouse", "germany", 50500f);
-             saveProduct("Monitor", "brazil", 950500f);
-              saveProduct("Cable", "canada", 88000f);
-               saveProduct("starlink", "Russia", 1590500f);
+//           saveProduct("Keybord", "mirpur", 150500f);
+//            saveProduct("Mouse", "germany", 50500f);
+//             saveProduct("Monitor", "brazil", 950500f);
+//              saveProduct("Cable", "canada", 88000f);
+//               saveProduct("starlink", "Russia", 1590500f);
         System.out.println("After Save");
         
         showAllProduct();
@@ -43,8 +43,8 @@ public class ShowCrud {
         showAllProduct();
         System.out.println("--------------------------------");
         
-        updateProduct(1, "Mobile", "france", 45000f);
-        System.out.println("after update");
+//        updateProduct(1, "Mobile", "france", 45000f);
+//        System.out.println("after update");
         
         showAllProduct();
         System.out.println("--------------------------------");
@@ -59,7 +59,7 @@ public class ShowCrud {
         
     }
     
-    public static void saveProduct(String product, String shipping, float price){
+    public static void saveProduct(String name, String designation, float salary){
     
     sql="insert into productdetails(product,shipping,price)values(?,?,?)";
     
