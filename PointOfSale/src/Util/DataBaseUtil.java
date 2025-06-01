@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DataBaseUtil {
 
     private Connection con = null;
-    private String url = "jdbc:mysql://localhost:3306/pos";
+    private String url = "jdbc:mysql://localhost:3306/pointofsale";
     private String user = "root";
     private String password = "1234";
     private String driver = "com.mysql.cj.jdbc.Driver";
