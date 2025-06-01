@@ -578,7 +578,7 @@
                                       <EmptySpace pref="85" max="32767" attributes="0"/>
                                       <Component id="jButton5" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="txtCustomerEmail" max="32767" attributes="0"/>
+                                  <Component id="jTextField5" max="32767" attributes="0"/>
                                   <Component id="txtCustomerCell" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace pref="89" max="32767" attributes="0"/>
@@ -607,7 +607,7 @@
                                       <Component id="jLabel15" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                                      <Component id="txtCustomerEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -750,7 +750,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="txtCustomerId">
                     </Component>
-                    <Component class="javax.swing.JTextField" name="txtCustomerEmail">
+                    <Component class="javax.swing.JTextField" name="jTextField5">
                     </Component>
                     <Component class="javax.swing.JButton" name="btnCustomerSave">
                       <Properties>

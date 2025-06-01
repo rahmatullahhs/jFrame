@@ -82,7 +82,7 @@ public class view extends javax.swing.JFrame {
         txtCustomerName = new javax.swing.JTextField();
         txtCustomerCell = new javax.swing.JTextField();
         txtCustomerId = new javax.swing.JTextField();
-        txtCustomerEmail = new javax.swing.JTextField();
+        jTextField5 = new javax.swing.JTextField();
         btnCustomerSave = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -605,7 +605,7 @@ public class view extends javax.swing.JFrame {
                         .addComponent(jButton3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 85, Short.MAX_VALUE)
                         .addComponent(jButton5))
-                    .addComponent(txtCustomerEmail)
+                    .addComponent(jTextField5)
                     .addComponent(txtCustomerCell))
                 .addContainerGap(89, Short.MAX_VALUE))
         );
@@ -628,7 +628,7 @@ public class view extends javax.swing.JFrame {
                         .addComponent(txtCustomerAddress, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(txtCustomerEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel13)))
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel6Layout.createSequentialGroup()
@@ -1459,7 +1459,7 @@ tabMain.setSelectedIndex(8);        // TODO add your handling code here:
 
     private void btnCustomerSaveMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCustomerSaveMouseClicked
        String name = txtCustomerName.getText().trim();
-         String email = txtCustomerEmail.getText().trim();
+         String email = jTextField5.getText().trim();
          String cell = txtCustomerCell.getText().trim();
          String address = txtCustomerAddress.getText().trim();
         customerDao.saveCustomer( name,cell,email, address);        // TODO add your handling code here:
@@ -1644,6 +1644,7 @@ tabMain.setSelectedIndex(8);        // TODO add your handling code here:
     private javax.swing.JTextField jTextField34;
     private javax.swing.JTextField jTextField35;
     private javax.swing.JTextField jTextField36;
+    private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
     private javax.swing.JTextField jTextField7;
     private javax.swing.JTextField jTextField8;
@@ -1661,7 +1662,6 @@ tabMain.setSelectedIndex(8);        // TODO add your handling code here:
     private javax.swing.JTable tblCustomer;
     private javax.swing.JTextField txtCustomerAddress;
     private javax.swing.JTextField txtCustomerCell;
-    private javax.swing.JTextField txtCustomerEmail;
     private javax.swing.JTextField txtCustomerId;
     private javax.swing.JTextField txtCustomerName;
     // End of variables declaration//GEN-END:variables
